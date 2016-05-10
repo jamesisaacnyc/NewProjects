@@ -538,6 +538,9 @@ var sortRow1 = row1[Math.floor(Math.random() * row1.length)];
 
 var sortColumns1 = column1[Math.floor(Math.random() * column1.length)];
 
+var card1 = deck[sortColumns1][sortRow1];
+console.log(card1);
+
 
 console.log(sortColumns1, sortRow1);
 
@@ -557,6 +560,9 @@ var column2 = [0,1,2,3,];
 var sortRow2 = row2[Math.floor(Math.random() * row2.length)];
 
 var sortColumns2 = column2[Math.floor(Math.random() * column2.length)];
+
+var card2 = deck[sortColumns2][sortRow2];
+console.log(card2);
 
 
 console.log(sortColumns2, sortRow2);
@@ -581,6 +587,8 @@ var sortRow3 = row3[Math.floor(Math.random() * row3.length)];
 
 var sortColumns3 = column3[Math.floor(Math.random() * column3.length)];
 
+var card3 = deck[sortColumns3][sortRow3];
+console.log(card3);
 
 console.log(sortColumns3, sortRow3);
 
@@ -601,6 +609,8 @@ var sortRow4 = row4[Math.floor(Math.random() * row4.length)];
 
 var sortColumns4 = column4[Math.floor(Math.random() * column4.length)];
 
+var card4 = deck[sortColumns4][sortRow4];
+console.log(card4);
 
 console.log(sortColumns4, sortRow4);
 
@@ -608,20 +618,27 @@ console.log(sortColumns4, sortRow4);
 ////////////////////////////////////////////////////////////////
 
 
-console.log(deck[sortColumns1][sortRow1]);
-console.log(deck[sortColumns2][sortRow2]);
-console.log(deck[sortColumns3][sortRow3]);
-console.log(deck[sortColumns4][sortRow4]);
+// console.log(deck[sortColumns1][sortRow1]);
+// console.log(deck[sortColumns2][sortRow2]);
+// console.log(deck[sortColumns3][sortRow3]);
+// console.log(deck[sortColumns4][sortRow4]);
 
 
 
 
 /////////////////////////////////////////////////Card Assign////////////////////////////////////////////////////
 
+// var playerCards = { 
+// deck[sortColumns1][sortRow1] , 
+// deck[sortColumns2][sortRow2];
+// }
 
-var playerCards = function(deck[sortColumns1][sortRow1], deck[sortColumns2][sortRow2]) { 
+// console.log(playerCards);
 
-console.log(playerCards);
+
+
+var playerCardAssign = function(x,y) { 
+console.log(playerCardAssign);
 
 };
 
