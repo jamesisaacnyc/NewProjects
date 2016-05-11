@@ -518,10 +518,7 @@ $('.dealHand').click(function() {
     location.reload(true); 
 });
 
-$( ".startGame" ).click(function() {
-  alert( "New Game mother fucker!" );
-});
-
+// 
 ////////////////////////////////////////////////////////GET CARDS///////////////////////////////////////////////////
 
 
@@ -618,15 +615,169 @@ console.log(sortColumns4, sortRow4);
 ////////////////////////////////////////////////////////////////
 
 
-// console.log(deck[sortColumns1][sortRow1]);
-// console.log(deck[sortColumns2][sortRow2]);
-// console.log(deck[sortColumns3][sortRow3]);
-// console.log(deck[sortColumns4][sortRow4]);
-
-
 
 
 /////////////////////////////////////////////////Card Assign////////////////////////////////////////////////////
+
+
+
+var playerCards = card1.value + card2.value;
+console.log(playerCards);
+
+var dealerCards = card3.value + card4.value;
+console.log(dealerCards);
+
+
+
+if (playerCards == 21) {
+    console.log("Player has 21, Black Jack");
+} else if (dealerCards == 21) {
+    console.log("Dealer has 21, Black Jack");
+} else if (playerCards == dealerCards) {
+    console.log("Tie");
+} else if (playerCards > dealerCards) {
+    console.log("Player Wins");
+} else {
+   	console.log("Dealer Wins");
+}
+
+////Card Image Append
+////////////////////////////////////////////
+// if (card1.value = 1 ) { 
+// 	$('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/AceClubs.jpg'}))
+// } else if (card1.value = 2) {
+//   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/2Clubs.jpg'}))
+// } else if (card1.card = 'Three' ) {
+//   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/3Clubs.jpg'}))
+// } else if (card1.card = 'Four' ) {
+//   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/4Clubs.jpg'}))
+// } else if (card1.card = 'Five' ) {
+//   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/5Clubs.jpg'}))
+// } else if (card1.card = 'Six' ) {
+//   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/6Clubs.jpg'}))
+// } else if (card1.card = 'Seven' ) {
+//   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/7Clubs.jpg'}))
+// } else if (card1.card = 'Eight' ) {
+//   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/8Clubs.jpg'}))
+// } else if (card1.card = 'Nine' ) {
+//   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/9Clubs.jpg'}))
+// } else if (card1.value = 10 ) {
+//  	$('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/10Clubs.jpg'}))
+// } else if (card1.card = 'Jack' ) {
+//   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/JackClubs.jpg'}))
+// } else if (card1.card = 'Queen' ) {
+//   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/QueenClubs.jpg'}))
+// } else if (card1.card = 'King' ) {
+//   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/KingClubs.jpg'}))
+// } else if (card1.card = 'Ace' ) {
+//   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/AceClubs.jpg'}))
+// } else { 
+// 	alert("Well Fuck")
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////// TRASH CODE //////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // var playerCards = { 
 // deck[sortColumns1][sortRow1] , 
@@ -636,11 +787,80 @@ console.log(sortColumns4, sortRow4);
 // console.log(playerCards);
 
 
+/////////////////////////////
+////////////////////////////
+////////////////////////////
+//this code is irrelevant
+// var card1 = {
+// 	value: 10,
+// 	name: 'jack'
+// };
+// console.log(card1);
 
-var playerCardAssign = function(x,y) { 
-console.log(playerCardAssign);
+// var card2 = {
+// 	value: 11,
+// 	name: 'ace'
+// };
+// console.log(card2);
+// var card3 = {
+// 	value: 5,
+// 	name: 'five'
+// };
+// console.log(card3);
+// var card4 = {
+// 	value: 7,
+// 	name: 'seven'
+// };
+// console.log(card4);
 
-};
+
+
+
+// var playerCardAssign = function(value,value) { 
+// 			(card1.value + card4.value);
+
+// 	};
+
+// console.log(playerCardAssign(card1,card2));
+
+
+// var dealerCardAssign = function(value,value) { 
+// 			(card2.value + card3.value);
+
+// 	};
+
+// console.log(playerCardAssign(card3,card4));
+
+// console.log(deck[sortColumns1][sortRow1]);
+// console.log(deck[sortColumns2][sortRow2]);
+// console.log(deck[sortColumns3][sortRow3]);
+// console.log(deck[sortColumns4][sortRow4]);
+
+// if (playerCards > dealerCards) {
+//     alert("Player wins");
+
+// 	}else if { (playerCards == dealerCards)
+// 			alert('tie');
+
+// 	}else {
+//     alert("Dealer Wins");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
