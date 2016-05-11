@@ -646,37 +646,139 @@ if (playerCards == 21) {
 
 /////Card One
 
-if (card1.card === 'One' ) { 
+if (card1.card === 'One' && card1.suit === 'clubs') { 
 	$('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/AceClubs.jpg'}))
-} else if (card1.card === 'Two') {
+} else if (card1.card === 'Two' && card1.suit === 'clubs') {
   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/2Clubs.jpg'}))
-} else if (card1.card === 'Three' ) {
+} else if (card1.card === 'Three' && card1.suit === 'clubs') {
   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/3Clubs.jpg'}))
-} else if (card1.card === 'Four' ) {
+} else if (card1.card === 'Four' && card1.suit === 'clubs' ) {
   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/4Clubs.jpg'}))
-} else if (card1.card === 'Five' ) {
+} else if (card1.card === 'Five' && card1.suit === 'clubs' ) {
   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/5Clubs.jpg'}))
-} else if (card1.card === 'Six' ) {
+} else if (card1.card === 'Six' && card1.suit === 'clubs') {
   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/6Clubs.jpg'}))
-} else if (card1.card === 'Seven' ) {
+} else if (card1.card === 'Seven' && card1.suit === 'clubs') {
   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/7Clubs.jpg'}))
-} else if (card1.card === 'Eight' ) {
+} else if (card1.card === 'Eight' && card1.suit === 'clubs') {
   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/8Clubs.jpg'}))
-} else if (card1.card === 'Nine' ) {
+} else if (card1.card === 'Nine' && card1.suit === 'clubs') {
   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/9Clubs.jpg'}))
-} else if (card1.card === 'Ten' ) {
+} else if (card1.card === 'Ten' && card1.suit === 'clubs') {
  	$('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/10Clubs.jpg'}))
-} else if (card1.card ==='Jack' ) {
+} else if (card1.card ==='Jack' && card1.suit === 'clubs' ) {
   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/JackClubs.jpg'}))
-} else if (card1.card === 'Queen' ) {
+} else if (card1.card === 'Queen' && card1.suit === 'clubs') {
   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/QueenClubs.jpg'}))
-} else if (card1.card === 'King' ) {
+} else if (card1.card === 'King' && card1.suit === 'clubs') {
   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/KingClubs.jpg'}))
-} else if (card1.card === 'Ace' ) {
+} else if (card1.card === 'Ace' && card1.suit === 'clubs') {
   $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/AceClubs.jpg'}))
 } else { 
-	alert("Well Fuck")
+	console.log("Well Fuck")
 }
+
+
+
+if (card1.card === 'One' && card1.suit === 'heart') { 
+	$('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/AceHeart.jpg'}))
+} else if (card1.card === 'Two' && card1.suit === 'heart') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/2Heart.jpg'}))
+} else if (card1.card === 'Three' && card1.suit === 'heart') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/3Heart.jpg'}))
+} else if (card1.card === 'Four' && card1.suit === 'heart' ) {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/4Heart.jpg'}))
+} else if (card1.card === 'Five' && card1.suit === 'heart' ) {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/5Heart.jpg'}))
+} else if (card1.card === 'Six' && card1.suit === 'heart') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/6Heart.jpg'}))
+} else if (card1.card === 'Seven' && card1.suit === 'heart') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/7Heart.jpg'}))
+} else if (card1.card === 'Eight' && card1.suit === 'heart') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/8Heart.jpg'}))
+} else if (card1.card === 'Nine' && card1.suit === 'heart') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/9Heart.jpg'}))
+} else if (card1.card === 'Ten' && card1.suit === 'heart') {
+ 	$('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/10Heart.jpg'}))
+} else if (card1.card ==='Jack' && card1.suit === 'heart' ) {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/JackHeart.jpg'}))
+} else if (card1.card === 'Queen' && card1.suit === 'heart') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/QueenHeart.jpg'}))
+} else if (card1.card === 'King' && card1.suit === 'heart') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/KingHeart.jpg'}))
+} else if (card1.card === 'Ace' && card1.suit === 'heart') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/AceHeart.jpg'}))
+} else { 
+	console.log("Well Fuck")
+}
+
+if (card1.card === 'One' && card1.suit === 'diamond') { 
+	$('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/AceDiamond.jpg'}))
+} else if (card1.card === 'Two' && card1.suit === 'diamond') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/2Diamond.jpg'}))
+} else if (card1.card === 'Three' && card1.suit === 'diamond') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/3Diamond.jpg'}))
+} else if (card1.card === 'Four' && card1.suit === 'diamond' ) {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/4Diamond.jpg'}))
+} else if (card1.card === 'Five' && card1.suit === 'diamond' ) {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/5Diamond.jpg'}))
+} else if (card1.card === 'Six' && card1.suit === 'diamond') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/6Diamond.jpg'}))
+} else if (card1.card === 'Seven' && card1.suit === 'diamond') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/7Diamond.jpg'}))
+} else if (card1.card === 'Eight' && card1.suit === 'diamond') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/8Diamond.jpg'}))
+} else if (card1.card === 'Nine' && card1.suit === 'diamond') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/9Diamond.jpg'}))
+} else if (card1.card === 'Ten' && card1.suit === 'diamond') {
+ 	$('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/10Diamond.jpg'}))
+} else if (card1.card ==='Jack' && card1.suit === 'diamond' ) {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/JackDiamond.jpg'}))
+} else if (card1.card === 'Queen' && card1.suit === 'diamond') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/QueenDiamond.jpg'}))
+} else if (card1.card === 'King' && card1.suit === 'diamond') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/KingDiamond.jpg'}))
+} else if (card1.card === 'Ace' && card1.suit === 'diamond') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/AceDiamond.jpg'}))
+} else { 
+	console.log("Well Fuck")
+}
+
+
+
+
+if (card1.card === 'One' && card1.suit === 'spades') { 
+	$('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/AceSpade.jpg'}))
+} else if (card1.card === 'Two' && card1.suit === 'spades') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/2Spade.jpg'}))
+} else if (card1.card === 'Three' && card1.suit === 'spades') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/3Spade.jpg'}))
+} else if (card1.card === 'Four' && card1.suit === 'spades' ) {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/4Spade.jpg'}))
+} else if (card1.card === 'Five' && card1.suit === 'spades' ) {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/5Spade.jpg'}))
+} else if (card1.card === 'Six' && card1.suit === 'spades') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/6Spade.jpg'}))
+} else if (card1.card === 'Seven' && card1.suit === 'spades') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/7Spade.jpg'}))
+} else if (card1.card === 'Eight' && card1.suit === 'spades') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/8Spade.jpg'}))
+} else if (card1.card === 'Nine' && card1.suit === 'spades') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/9Spade.jpg'}))
+} else if (card1.card === 'Ten' && card1.suit === 'spades') {
+ 	$('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/10Spade.jpg'}))
+} else if (card1.card ==='Jack' && card1.suit === 'spades' ) {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/JackSpade.jpg'}))
+} else if (card1.card === 'Queen' && card1.suit === 'spades') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/QueenSpade.jpg'}))
+} else if (card1.card === 'King' && card1.suit === 'spades') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/KingSpade.jpg'}))
+} else if (card1.card === 'Ace' && card1.suit === 'spades') {
+  $('.card1').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/AceSpade.jpg'}))
+} else { 
+	console.log("Well Fuck")
+}
+
 
 
 
@@ -684,37 +786,178 @@ if (card1.card === 'One' ) {
 
 //////Card Two 
 
-if (card2.card === 'One' ) { 
+// if (card2.card === 'One' ) { 
+// 	$('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/AceClubs.jpg'}))
+// } else if (card2.card === 'Two') {
+//   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/2Clubs.jpg'}))
+// } else if (card2.card === 'Three' ) {
+//   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/3Clubs.jpg'}))
+// } else if (card2.card === 'Four' ) {
+//   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/4Clubs.jpg'}))
+// } else if (card2.card === 'Five' ) {
+//   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/5Clubs.jpg'}))
+// } else if (card2.card === 'Six' ) {
+//   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/6Clubs.jpg'}))
+// } else if (card2.card === 'Seven' ) {
+//   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/7Clubs.jpg'}))
+// } else if (card2.card === 'Eight' ) {
+//   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/8Clubs.jpg'}))
+// } else if (card2.card === 'Nine' ) {
+//   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/9Clubs.jpg'}))
+// } else if (card2.card === 'Ten' ) {
+//  	$('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/10Clubs.jpg'}))
+// } else if (card2.card ==='Jack' ) {
+//   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/JackClubs.jpg'}))
+// } else if (card2.card === 'Queen' ) {
+//   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/QueenClubs.jpg'}))
+// } else if (card2.card === 'King' ) {
+//   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/KingClubs.jpg'}))
+// } else if (card2.card === 'Ace' ) {
+//   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/AceClubs.jpg'}))
+// } else { 
+// // 	console.log("Well Fuck")
+// }
+
+
+
+if (card2.card === 'One' && card2.suit === 'clubs') { 
 	$('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/AceClubs.jpg'}))
-} else if (card2.card === 'Two') {
+} else if (card2.card === 'Two' && card2.suit === 'clubs') {
   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/2Clubs.jpg'}))
-} else if (card2.card === 'Three' ) {
+} else if (card2.card === 'Three' && card2.suit === 'clubs') {
   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/3Clubs.jpg'}))
-} else if (card2.card === 'Four' ) {
+} else if (card2.card === 'Four' && card2.suit === 'clubs' ) {
   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/4Clubs.jpg'}))
-} else if (card2.card === 'Five' ) {
+} else if (card2.card === 'Five' && card2.suit === 'clubs' ) {
   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/5Clubs.jpg'}))
-} else if (card2.card === 'Six' ) {
+} else if (card2.card === 'Six' && card2.suit === 'clubs') {
   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/6Clubs.jpg'}))
-} else if (card2.card === 'Seven' ) {
+} else if (card2.card === 'Seven' && card2.suit === 'clubs') {
   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/7Clubs.jpg'}))
-} else if (card2.card === 'Eight' ) {
+} else if (card2.card === 'Eight' && card2.suit === 'clubs') {
   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/8Clubs.jpg'}))
-} else if (card2.card === 'Nine' ) {
+} else if (card2.card === 'Nine' && card2.suit === 'clubs') {
   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/9Clubs.jpg'}))
-} else if (card2.card === 'Ten' ) {
+} else if (card2.card === 'Ten' && card2.suit === 'clubs') {
  	$('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/10Clubs.jpg'}))
-} else if (card2.card ==='Jack' ) {
+} else if (card2.card ==='Jack' && card2.suit === 'clubs' ) {
   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/JackClubs.jpg'}))
-} else if (card2.card === 'Queen' ) {
+} else if (card2.card === 'Queen' && card2.suit === 'clubs') {
   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/QueenClubs.jpg'}))
-} else if (card2.card === 'King' ) {
+} else if (card2.card === 'King' && card2.suit === 'clubs') {
   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/KingClubs.jpg'}))
-} else if (card2.card === 'Ace' ) {
+} else if (card2.card === 'Ace' && card2.suit === 'clubs') {
   $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/AceClubs.jpg'}))
 } else { 
-	alert("Well Fuck")
+	console.log("Well Fuck")
 }
+
+
+
+if (card2.card === 'One' && card2.suit === 'heart') { 
+	$('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/AceHeart.jpg'}))
+} else if (card2.card === 'Two' && card2.suit === 'heart') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/2Heart.jpg'}))
+} else if (card2.card === 'Three' && card2.suit === 'heart') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/3Heart.jpg'}))
+} else if (card2.card === 'Four' && card2.suit === 'heart' ) {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/4Heart.jpg'}))
+} else if (card2.card === 'Five' && card2.suit === 'heart' ) {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/5Heart.jpg'}))
+} else if (card2.card === 'Six' && card2.suit === 'heart') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/6Heart.jpg'}))
+} else if (card2.card === 'Seven' && card2.suit === 'heart') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/7Heart.jpg'}))
+} else if (card2.card === 'Eight' && card2.suit === 'heart') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/8Heart.jpg'}))
+} else if (card2.card === 'Nine' && card2.suit === 'heart') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/9Heart.jpg'}))
+} else if (card2.card === 'Ten' && card2.suit === 'heart') {
+ 	$('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/10Heart.jpg'}))
+} else if (card2.card ==='Jack' && card2.suit === 'heart' ) {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/JackHeart.jpg'}))
+} else if (card2.card === 'Queen' && card2.suit === 'heart') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/QueenHeart.jpg'}))
+} else if (card2.card === 'King' && card2.suit === 'heart') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/KingHeart.jpg'}))
+} else if (card2.card === 'Ace' && card2.suit === 'heart') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/AceHeart.jpg'}))
+} else { 
+	console.log("Well Fuck")
+}
+
+if (card2.card === 'One' && card2.suit === 'diamond') { 
+	$('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/AceDiamond.jpg'}))
+} else if (card2.card === 'Two' && card2.suit === 'diamond') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/2Diamond.jpg'}))
+} else if (card2.card === 'Three' && card2.suit === 'diamond') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/3Diamond.jpg'}))
+} else if (card2.card === 'Four' && card2.suit === 'diamond' ) {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/4Diamond.jpg'}))
+} else if (card2.card === 'Five' && card2.suit === 'diamond' ) {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/5Diamond.jpg'}))
+} else if (card2.card === 'Six' && card2.suit === 'diamond') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/6Diamond.jpg'}))
+} else if (card2.card === 'Seven' && card2.suit === 'diamond') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/7Diamond.jpg'}))
+} else if (card2.card === 'Eight' && card2.suit === 'diamond') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/8Diamond.jpg'}))
+} else if (card2.card === 'Nine' && card2.suit === 'diamond') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/9Diamond.jpg'}))
+} else if (card2.card === 'Ten' && card2.suit === 'diamond') {
+ 	$('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/10Diamond.jpg'}))
+} else if (card2.card ==='Jack' && card2.suit === 'diamond' ) {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/JackDiamond.jpg'}))
+} else if (card2.card === 'Queen' && card2.suit === 'diamond') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/QueenDiamond.jpg'}))
+} else if (card2.card === 'King' && card2.suit === 'diamond') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/KingDiamond.jpg'}))
+} else if (card2.card === 'Ace' && card2.suit === 'diamond') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/AceDiamond.jpg'}))
+} else { 
+	console.log("Well Fuck")
+}
+
+
+
+
+if (card2.card === 'One' && card2.suit === 'spades') { 
+	$('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/AceSpade.jpg'}))
+} else if (card2.card === 'Two' && card2.suit === 'spades') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/2Spade.jpg'}))
+} else if (card2.card === 'Three' && card2.suit === 'spades') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/3Spade.jpg'}))
+} else if (card2.card === 'Four' && card2.suit === 'spades' ) {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/4Spade.jpg'}))
+} else if (card2.card === 'Five' && card2.suit === 'spades' ) {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/5Spade.jpg'}))
+} else if (card2.card === 'Six' && card2.suit === 'spades') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/6Spade.jpg'}))
+} else if (card2.card === 'Seven' && card2.suit === 'spades') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/7Spade.jpg'}))
+} else if (card2.card === 'Eight' && card2.suit === 'spades') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/8Spade.jpg'}))
+} else if (card2.card === 'Nine' && card2.suit === 'spades') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/9Spade.jpg'}))
+} else if (card2.card === 'Ten' && card2.suit === 'spades') {
+ 	$('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/10Spade.jpg'}))
+} else if (card2.card ==='Jack' && card2.suit === 'spades' ) {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/JackSpade.jpg'}))
+} else if (card2.card === 'Queen' && card2.suit === 'spades') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/QueenSpade.jpg'}))
+} else if (card2.card === 'King' && card2.suit === 'spades') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/KingSpade.jpg'}))
+} else if (card2.card === 'Ace' && card2.suit === 'spades') {
+  $('.card2').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/AceSpade.jpg'}))
+} else { 
+	console.log("Well Fuck")
+}
+
+
+
+
+
+
 
 
 
@@ -722,37 +965,173 @@ if (card2.card === 'One' ) {
 
 /////Card Three
 
-if (card3.card === 'One' ) { 
+// if (card3.card === 'One' ) { 
+// 	$('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/AceClubs.jpg'}))
+// } else if (card3.card === 'Two') {
+//   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/2Clubs.jpg'}))
+// } else if (card3.card === 'Three' ) {
+//   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/3Clubs.jpg'}))
+// } else if (card3.card === 'Four' ) {
+//   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/4Clubs.jpg'}))
+// } else if (card3.card === 'Five' ) {
+//   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/5Clubs.jpg'}))
+// } else if (card3.card === 'Six' ) {
+//   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/6Clubs.jpg'}))
+// } else if (card3.card === 'Seven' ) {
+//   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/7Clubs.jpg'}))
+// } else if (card3.card === 'Eight' ) {
+//   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/8Clubs.jpg'}))
+// } else if (card3.card === 'Nine' ) {
+//   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/9Clubs.jpg'}))
+// } else if (card3.card === 'Ten' ) {
+//  	$('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/10Clubs.jpg'}))
+// } else if (card3.card ==='Jack' ) {
+//   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/JackClubs.jpg'}))
+// } else if (card3.card === 'Queen' ) {
+//   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/QueenClubs.jpg'}))
+// } else if (card3.card === 'King' ) {
+//   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/KingClubs.jpg'}))
+// } else if (card3.card === 'Ace' ) {
+//   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/AceClubs.jpg'}))
+// } else { 
+// 	alert("Well Fuck")
+// }
+
+
+if (card3.card === 'One' && card3.suit === 'clubs') { 
 	$('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/AceClubs.jpg'}))
-} else if (card3.card === 'Two') {
+} else if (card3.card === 'Two' && card3.suit === 'clubs') {
   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/2Clubs.jpg'}))
-} else if (card3.card === 'Three' ) {
+} else if (card3.card === 'Three' && card3.suit === 'clubs') {
   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/3Clubs.jpg'}))
-} else if (card3.card === 'Four' ) {
+} else if (card3.card === 'Four' && card3.suit === 'clubs' ) {
   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/4Clubs.jpg'}))
-} else if (card3.card === 'Five' ) {
+} else if (card3.card === 'Five' && card3.suit === 'clubs' ) {
   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/5Clubs.jpg'}))
-} else if (card3.card === 'Six' ) {
+} else if (card3.card === 'Six' && card3.suit === 'clubs') {
   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/6Clubs.jpg'}))
-} else if (card3.card === 'Seven' ) {
+} else if (card3.card === 'Seven' && card3.suit === 'clubs') {
   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/7Clubs.jpg'}))
-} else if (card3.card === 'Eight' ) {
+} else if (card3.card === 'Eight' && card3.suit === 'clubs') {
   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/8Clubs.jpg'}))
-} else if (card3.card === 'Nine' ) {
+} else if (card3.card === 'Nine' && card3.suit === 'clubs') {
   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/9Clubs.jpg'}))
-} else if (card3.card === 'Ten' ) {
+} else if (card3.card === 'Ten' && card3.suit === 'clubs') {
  	$('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/10Clubs.jpg'}))
-} else if (card3.card ==='Jack' ) {
+} else if (card3.card ==='Jack' && card3.suit === 'clubs' ) {
   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/JackClubs.jpg'}))
-} else if (card3.card === 'Queen' ) {
+} else if (card3.card === 'Queen' && card3.suit === 'clubs') {
   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/QueenClubs.jpg'}))
-} else if (card3.card === 'King' ) {
+} else if (card3.card === 'King' && card3.suit === 'clubs') {
   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/KingClubs.jpg'}))
-} else if (card3.card === 'Ace' ) {
+} else if (card3.card === 'Ace' && card3.suit === 'clubs') {
   $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/AceClubs.jpg'}))
 } else { 
-	alert("Well Fuck")
+	console.log("Well Fuck")
 }
+
+
+
+if (card3.card === 'One' && card3.suit === 'heart') { 
+	$('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/AceHeart.jpg'}))
+} else if (card3.card === 'Two' && card3.suit === 'heart') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/2Heart.jpg'}))
+} else if (card3.card === 'Three' && card3.suit === 'heart') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/3Heart.jpg'}))
+} else if (card3.card === 'Four' && card3.suit === 'heart' ) {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/4Heart.jpg'}))
+} else if (card3.card === 'Five' && card3.suit === 'heart' ) {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/5Heart.jpg'}))
+} else if (card3.card === 'Six' && card3.suit === 'heart') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/6Heart.jpg'}))
+} else if (card3.card === 'Seven' && card3.suit === 'heart') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/7Heart.jpg'}))
+} else if (card3.card === 'Eight' && card3.suit === 'heart') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/8Heart.jpg'}))
+} else if (card3.card === 'Nine' && card3.suit === 'heart') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/9Heart.jpg'}))
+} else if (card3.card === 'Ten' && card3.suit === 'heart') {
+ 	$('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/10Heart.jpg'}))
+} else if (card3.card ==='Jack' && card3.suit === 'heart' ) {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/JackHeart.jpg'}))
+} else if (card3.card === 'Queen' && card3.suit === 'heart') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/QueenHeart.jpg'}))
+} else if (card3.card === 'King' && card3.suit === 'heart') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/KingHeart.jpg'}))
+} else if (card3.card === 'Ace' && card3.suit === 'heart') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/AceHeart.jpg'}))
+} else { 
+	console.log("Well Fuck")
+}
+
+if (card3.card === 'One' && card3.suit === 'diamond') { 
+	$('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/AceDiamond.jpg'}))
+} else if (card3.card === 'Two' && card3.suit === 'diamond') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/2Diamond.jpg'}))
+} else if (card3.card === 'Three' && card3.suit === 'diamond') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/3Diamond.jpg'}))
+} else if (card3.card === 'Four' && card3.suit === 'diamond' ) {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/4Diamond.jpg'}))
+} else if (card3.card === 'Five' && card3.suit === 'diamond' ) {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/5Diamond.jpg'}))
+} else if (card3.card === 'Six' && card3.suit === 'diamond') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/6Diamond.jpg'}))
+} else if (card3.card === 'Seven' && card3.suit === 'diamond') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/7Diamond.jpg'}))
+} else if (card3.card === 'Eight' && card3.suit === 'diamond') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/8Diamond.jpg'}))
+} else if (card3.card === 'Nine' && card3.suit === 'diamond') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/9Diamond.jpg'}))
+} else if (card3.card === 'Ten' && card3.suit === 'diamond') {
+ 	$('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/10Diamond.jpg'}))
+} else if (card3.card ==='Jack' && card3.suit === 'diamond' ) {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/JackDiamond.jpg'}))
+} else if (card3.card === 'Queen' && card3.suit === 'diamond') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/QueenDiamond.jpg'}))
+} else if (card3.card === 'King' && card3.suit === 'diamond') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/KingDiamond.jpg'}))
+} else if (card3.card === 'Ace' && card3.suit === 'diamond') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/AceDiamond.jpg'}))
+} else { 
+	console.log("Well Fuck")
+}
+
+
+
+
+if (card3.card === 'One' && card3.suit === 'spades') { 
+	$('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/AceSpade.jpg'}))
+} else if (card3.card === 'Two' && card3.suit === 'spades') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/2Spade.jpg'}))
+} else if (card3.card === 'Three' && card3.suit === 'spades') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/3Spade.jpg'}))
+} else if (card3.card === 'Four' && card3.suit === 'spades' ) {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/4Spade.jpg'}))
+} else if (card3.card === 'Five' && card3.suit === 'spades' ) {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/5Spade.jpg'}))
+} else if (card3.card === 'Six' && card3.suit === 'spades') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/6Spade.jpg'}))
+} else if (card3.card === 'Seven' && card3.suit === 'spades') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/7Spade.jpg'}))
+} else if (card3.card === 'Eight' && card3.suit === 'spades') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/8Spade.jpg'}))
+} else if (card3.card === 'Nine' && card3.suit === 'spades') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/9Spade.jpg'}))
+} else if (card3.card === 'Ten' && card3.suit === 'spades') {
+ 	$('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/10Spade.jpg'}))
+} else if (card3.card ==='Jack' && card3.suit === 'spades' ) {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/JackSpade.jpg'}))
+} else if (card3.card === 'Queen' && card3.suit === 'spades') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/QueenSpade.jpg'}))
+} else if (card3.card === 'King' && card3.suit === 'spades') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/KingSpade.jpg'}))
+} else if (card3.card === 'Ace' && card3.suit === 'spades') {
+  $('.card3').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/AceSpade.jpg'}))
+} else { 
+	console.log("Well Fuck")
+}
+
+
 
 
 
@@ -760,40 +1139,171 @@ if (card3.card === 'One' ) {
 /////Card Four
 
 
-if (card4.card === 'One' ) { 
+// if (card4.card === 'One' ) { 
+// 	$('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/AceClubs.jpg'}))
+// } else if (card4.card === 'Two') {
+//   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/2Clubs.jpg'}))
+// } else if (card4.card === 'Three' ) {
+//   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/3Clubs.jpg'}))
+// } else if (card4.card === 'Four' ) {
+//   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/4Clubs.jpg'}))
+// } else if (card4.card === 'Five' ) {
+//   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/5Clubs.jpg'}))
+// } else if (card4.card === 'Six' ) {
+//   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/6Clubs.jpg'}))
+// } else if (card4.card === 'Seven' ) {
+//   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/7Clubs.jpg'}))
+// } else if (card4.card === 'Eight' ) {
+//   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/8Clubs.jpg'}))
+// } else if (card4.card === 'Nine' ) {
+//   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/9Clubs.jpg'}))
+// } else if (card4.card === 'Ten' ) {
+//  	$('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/10Clubs.jpg'}))
+// } else if (card4.card ==='Jack' ) {
+//   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/JackClubs.jpg'}))
+// } else if (card4.card === 'Queen' ) {
+//   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/QueenClubs.jpg'}))
+// } else if (card4.card === 'King' ) {
+//   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/KingClubs.jpg'}))
+// } else if (card4.card === 'Ace' ) {
+//   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/AceClubs.jpg'}))
+// } else { 
+// 	alert("Well Fuck")
+// }
+
+
+if (card4.card === 'One' && card4.suit === 'clubs') { 
 	$('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/AceClubs.jpg'}))
-} else if (card4.card === 'Two') {
+} else if (card4.card === 'Two' && card4.suit === 'clubs') {
   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/2Clubs.jpg'}))
-} else if (card4.card === 'Three' ) {
+} else if (card4.card === 'Three' && card4.suit === 'clubs') {
   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/3Clubs.jpg'}))
-} else if (card4.card === 'Four' ) {
+} else if (card4.card === 'Four' && card4.suit === 'clubs' ) {
   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/4Clubs.jpg'}))
-} else if (card4.card === 'Five' ) {
+} else if (card4.card === 'Five' && card4.suit === 'clubs' ) {
   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/5Clubs.jpg'}))
-} else if (card4.card === 'Six' ) {
+} else if (card4.card === 'Six' && card4.suit === 'clubs') {
   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/6Clubs.jpg'}))
-} else if (card4.card === 'Seven' ) {
+} else if (card4.card === 'Seven' && card4.suit === 'clubs') {
   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/7Clubs.jpg'}))
-} else if (card4.card === 'Eight' ) {
+} else if (card4.card === 'Eight' && card4.suit === 'clubs') {
   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/8Clubs.jpg'}))
-} else if (card4.card === 'Nine' ) {
+} else if (card4.card === 'Nine' && card4.suit === 'clubs') {
   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/9Clubs.jpg'}))
-} else if (card4.card === 'Ten' ) {
+} else if (card4.card === 'Ten' && card4.suit === 'clubs') {
  	$('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/10Clubs.jpg'}))
-} else if (card4.card ==='Jack' ) {
+} else if (card4.card ==='Jack' && card4.suit === 'clubs' ) {
   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/JackClubs.jpg'}))
-} else if (card4.card === 'Queen' ) {
+} else if (card4.card === 'Queen' && card4.suit === 'clubs') {
   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/QueenClubs.jpg'}))
-} else if (card4.card === 'King' ) {
+} else if (card4.card === 'King' && card4.suit === 'clubs') {
   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/KingClubs.jpg'}))
-} else if (card4.card === 'Ace' ) {
+} else if (card4.card === 'Ace' && card4.suit === 'clubs') {
   $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Clubs/AceClubs.jpg'}))
 } else { 
-	alert("Well Fuck")
+	console.log("Well Fuck")
 }
 
 
 
+if (card4.card === 'One' && card4.suit === 'heart') { 
+	$('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/AceHeart.jpg'}))
+} else if (card4.card === 'Two' && card4.suit === 'heart') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/2Heart.jpg'}))
+} else if (card4.card === 'Three' && card4.suit === 'heart') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/3Heart.jpg'}))
+} else if (card4.card === 'Four' && card4.suit === 'heart' ) {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/4Heart.jpg'}))
+} else if (card4.card === 'Five' && card4.suit === 'heart' ) {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/5Heart.jpg'}))
+} else if (card4.card === 'Six' && card4.suit === 'heart') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/6Heart.jpg'}))
+} else if (card4.card === 'Seven' && card4.suit === 'heart') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/7Heart.jpg'}))
+} else if (card4.card === 'Eight' && card4.suit === 'heart') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/8Heart.jpg'}))
+} else if (card4.card === 'Nine' && card4.suit === 'heart') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/9Heart.jpg'}))
+} else if (card4.card === 'Ten' && card4.suit === 'heart') {
+ 	$('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/10Heart.jpg'}))
+} else if (card4.card ==='Jack' && card4.suit === 'heart' ) {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/JackHeart.jpg'}))
+} else if (card4.card === 'Queen' && card4.suit === 'heart') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/QueenHeart.jpg'}))
+} else if (card4.card === 'King' && card4.suit === 'heart') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/KingHeart.jpg'}))
+} else if (card4.card === 'Ace' && card4.suit === 'heart') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Heart/AceHeart.jpg'}))
+} else { 
+	console.log("Well Fuck")
+}
+
+if (card4.card === 'One' && card4.suit === 'diamond') { 
+	$('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/AceDiamond.jpg'}))
+} else if (card4.card === 'Two' && card4.suit === 'diamond') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/2Diamond.jpg'}))
+} else if (card4.card === 'Three' && card4.suit === 'diamond') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/3Diamond.jpg'}))
+} else if (card4.card === 'Four' && card4.suit === 'diamond' ) {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/4Diamond.jpg'}))
+} else if (card4.card === 'Five' && card4.suit === 'diamond' ) {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/5Diamond.jpg'}))
+} else if (card4.card === 'Six' && card4.suit === 'diamond') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/6Diamond.jpg'}))
+} else if (card4.card === 'Seven' && card4.suit === 'diamond') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/7Diamond.jpg'}))
+} else if (card4.card === 'Eight' && card4.suit === 'diamond') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/8Diamond.jpg'}))
+} else if (card4.card === 'Nine' && card4.suit === 'diamond') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/9Diamond.jpg'}))
+} else if (card4.card === 'Ten' && card4.suit === 'diamond') {
+ 	$('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/10Diamond.jpg'}))
+} else if (card4.card ==='Jack' && card4.suit === 'diamond' ) {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/JackDiamond.jpg'}))
+} else if (card4.card === 'Queen' && card4.suit === 'diamond') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/QueenDiamond.jpg'}))
+} else if (card4.card === 'King' && card4.suit === 'diamond') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/KingDiamond.jpg'}))
+} else if (card4.card === 'Ace' && card4.suit === 'diamond') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Diamonds/AceDiamond.jpg'}))
+} else { 
+	console.log("Well Fuck")
+}
+
+
+
+
+if (card4.card === 'One' && card4.suit === 'spades') { 
+	$('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/AceSpade.jpg'}))
+} else if (card4.card === 'Two' && card4.suit === 'spades') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/2Spade.jpg'}))
+} else if (card4.card === 'Three' && card4.suit === 'spades') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/3Spade.jpg'}))
+} else if (card4.card === 'Four' && card4.suit === 'spades' ) {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/4Spade.jpg'}))
+} else if (card4.card === 'Five' && card4.suit === 'spades' ) {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/5Spade.jpg'}))
+} else if (card4.card === 'Six' && card4.suit === 'spades') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/6Spade.jpg'}))
+} else if (card4.card === 'Seven' && card4.suit === 'spades') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/7Spade.jpg'}))
+} else if (card4.card === 'Eight' && card4.suit === 'spades') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/8Spade.jpg'}))
+} else if (card4.card === 'Nine' && card4.suit === 'spades') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/9Spade.jpg'}))
+} else if (card4.card === 'Ten' && card4.suit === 'spades') {
+ 	$('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/10Spade.jpg'}))
+} else if (card4.card ==='Jack' && card4.suit === 'spades' ) {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/JackSpade.jpg'}))
+} else if (card4.card === 'Queen' && card4.suit === 'spades') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/QueenSpade.jpg'}))
+} else if (card4.card === 'King' && card4.suit === 'spades') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/KingSpade.jpg'}))
+} else if (card4.card === 'Ace' && card4.suit === 'spades') {
+  $('.card4').append($('<img>',{id:'theImg',src:'Styles/Cards/Spade/AceSpade.jpg'}))
+} else { 
+	console.log("Well Fuck")
+}
 
 
 
