@@ -107,6 +107,17 @@ button {
   		
    }
 
+
+.card5 { 
+    width: 75px;
+    height: 100px;/*
+    background-image:url(Cards/Clubs/KingClubs.jpg);*/
+    position: relative;
+      left: 1250px;
+   }
+
+
+
 .info { 
 	color: red;
  }
