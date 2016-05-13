@@ -1,0 +1,130 @@
+body { 
+background-image: url(background2.jpg);
+}
+
+button { 
+	color: red;
+	width: 150px;
+	height: 50px;
+	position: relative;
+		top: 100px;
+		left:	200px
+	display: inline-block;	
+}
+
+.player { 
+	text-align: center;
+	color: red;
+	font-size: 50px;
+	height: 250px;
+	width: 500px;
+	background: grey;
+	position: relative;
+		top: 355px;
+		left: 400px;
+	display: inline-block;	
+		
+
+
+
+ }
+
+.dealer { 
+	text-align: center;
+	color: red;
+	font-size: 50px;
+	height: 250px;
+	width: 500px;
+	background: grey;
+	position: relative;
+		bottom: 50px;	
+		left: 400px;
+	display: inline-block;	
+		
+
+
+  }
+
+
+  .card1 { 
+  	width: 75px;
+		height: 100px;
+  /*	background-image:url(Cards/Clubs/10Clubs.jpg);*/
+  	position: relative;
+  		top: 500px;
+  		display: inline-block;
+   }
+
+.card2 { 
+  	width: 75px;
+		height: 100px;
+  	/*background-image:url(Cards/Clubs/KingClubs.jpg);*/
+  	position: relative;
+  		top: 500px;
+  		left: 25px;
+  		display: inline-block;
+   }
+
+
+   .card1 { 
+  	width: 75px;
+		height: 100px;
+  	/*background-image:url(Cards/Clubs/10Clubs.jpg);*/
+  	position: relative;
+  		top: 500px;
+  		display: inline-block;
+   }
+
+.card2 { 
+  	width: 75px;
+		height: 100px;/*
+  	background-image:url(Cards/Clubs/KingClubs.jpg);*/
+  	position: relative;
+  		top: 500px;
+  		left: 25px;
+  		display: inline-block;
+   }
+
+
+.card3 { 
+  	width: 75px;
+		height: 100px;
+/*  	background-image:url(Cards/Spade/7Spade.jpg);*/
+  	position: relative;
+  		bottom: 200px;
+  		left: 450px;
+  		
+  		
+   }
+
+.card4 { 
+  	width: 75px;
+		height: 100px;/*
+  	background-image:url(Cards/Heart/AceHeart.jpg);*/
+  	position: relative;
+  		bottom: 300px;
+  		left: 550px;
+  		
+   }
+
+
+.card5 { 
+    width: 75px;
+    height: 100px;/*
+    background-image:url(Cards/Clubs/KingClubs.jpg);*/
+    position: relative;
+      left: 1250px;
+   }
+
+
+
+.info { 
+	color: red;
+ }
+
+
+
+
+
+
+
