@@ -1,5 +1,5 @@
 Bullshit Black Jack 
-jamesissacnyc.githubio.
+http://jamesisaacnyc.github.io/NewProjects/
 
 Description
 
