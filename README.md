@@ -23,3 +23,5 @@ Future Implementations
 
 ** Adding the ability to play more than one hand at a time with out having to restart
 ** The addition of the feautre about will allow the bank feature to be more effecively used
+
+
